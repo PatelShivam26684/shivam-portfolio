@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - DSProj1</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="../assets/img/Favicon_Shivam.jpg" rel="icon">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+  <style>
+    .swiper-slide img {
+      height: 600px;
+      object-fit: contain;
+      width: auto;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+<main id="main">
+  <div id="portfolio-details" class="portfolio-details">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-8">
+          <h2 class="portfolio-title">Sentiment Toward Local Courts: A Demographic Analysis</h2>
+
+          <div class="portfolio-details-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/DS_Proj_1/1.png" alt="Slide 1">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/DS_Proj_1/2.png" alt="Slide 2">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/DS_Proj_1/3.png" alt="Slide 3">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/DS_Proj_1/4.png" alt="Slide 4">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/DS_Proj_1/5.png" alt="Slide 5">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/DS_Proj_1/6.png" alt="Slide 6">
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 portfolio-info">
+          <h3>Project Information</h3>
+          <ul>
+            <li><strong>Category</strong>: Data Wrangling / Visualization</li>
+            <li><strong>GitHub URL</strong>: <a href="https://github.com/PatelShivam26684/DSProj1" target="_blank">github.com/PatelShivam26684/DSProj1</a></li>
+          </ul>
+
+          <p><strong>Project Overview:</strong></p>
+          <p>
+            This project leverages the General Social Survey (GSS) dataset to explore how demographics influence perceptions of local court harshness.
+            A comprehensive data cleaning pipeline was used to prepare over 54,000 valid responses for analysis across variables such as sex, race, education, and perceived social class.
+          </p>
+
+          <p><strong>Key Steps:</strong></p>
+          <ul>
+            <li>Removed non-informative/null responses (e.g., “Don’t know”, “No answer”)</li>
+            <li>Renamed variables for readability (e.g., <code>courts → Courts Deal With Criminals</code>)</li>
+            <li>Filtered and validated categorical variables for analysis</li>
+          </ul>
+
+          <p><strong>Insights:</strong></p>
+          <ul>
+            <li>The vast majority across all groups believed courts are "Not Harsh Enough"</li>
+            <li>Black and lower-class respondents were more likely to say courts are "Too Harsh"</li>
+            <li>Higher education was correlated with more moderate views of court fairness</li>
+          </ul>
+
+          <p><strong>Tools & Libraries:</strong></p>
+          <ul>
+            <li>Python, Jupyter Notebooks</li>
+            <li>Pandas, Matplotlib, Seaborn</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>

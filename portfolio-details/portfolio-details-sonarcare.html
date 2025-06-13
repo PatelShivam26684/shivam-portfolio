@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - SonarCare</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="../assets/img/Favicon_Shivam.jpg" rel="icon">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+  <style>
+    /* Override only the slider shape */
+    .portfolio-details-wide .portfolio-details-slider {
+      width: 580px;
+      height: 480px;
+      margin: 0 auto;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .portfolio-details-wide .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .portfolio-details-wide .portfolio-details-slider {
+        width: 100%;
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<main id="main">
+  <div id="portfolio-details" class="portfolio-details portfolio-details-wide">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-8">
+          <h2 class="portfolio-title">SonarCare: AI-Driven Remote Patient Monitoring App</h2>
+
+          <div class="portfolio-details-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/SonarCare/1.png" alt="Patient Dashboard">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/SonarCare/2.png" alt="SonarCare Chat">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/SonarCare/3.png" alt="Vitals View">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/SonarCare/4.png" alt="Bored Chat">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/SonarCare/5.png" alt="Contact Care Team">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/SonarCare/6.png" alt="Contact Care Team">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/SonarCare/7.png" alt="Contact Care Team">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/SonarCare/8.png" alt="Contact Care Team">
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 portfolio-info">
+          <h3>Project Information</h3>
+          <ul>
+            <li><strong>Category</strong>: Full-Stack Web App / AI / Healthcare</li>
+            <li><strong>GitHub URL</strong>: Temporary Private Repo for competition purposes</a></li>
+            <li><strong>Vercel URL</strong>: <a href="https://triage-now.vercel.app/login" target="_blank">triage-now.vercel.app/login</a></li>
+          </ul>
+
+          <p><strong>Project Overview:</strong></p>
+          <p>
+            SonarCare is a full-stack AI-powered remote patient monitoring (RPM) app designed to assist patients, nurses, and care teams. It enables real-time clinical triage, structured profile generation from notes, patient-specific education, and care coordination through a modern dashboard.
+          </p>
+
+          <p><strong>Key Features:</strong></p>
+          <ul>
+            <li>Personalized AI assistant powered by Perplexity’s SONAR API</li>
+            <li>Chat interface with SonarCare for triage and condition-specific questions</li>
+            <li>Patient dashboards for vitals, boredom education, and emergency alerts</li>
+            <li>Care team dashboard for patient monitoring and AI-guided summaries</li>
+          </ul>
+
+          <p><strong>Technical Highlights:</strong></p>
+          <ul>
+            <li>React (frontend), Flask (backend), PostgreSQL (Render-hosted DB)</li>
+            <li>Role-based routing for patients, nurses, and admins</li>
+            <li>Integrated medical grade prompts with Perplexity’s `sonar-reasoning` model</li>
+            <li>Custom profile parser and alert system using clinical thresholds (LOINC, ADA, AHA, etc.)</li>
+          </ul>
+
+          <p><strong>My Role:</strong></p>
+          <ul>
+            <li>Designed and coded the full application architecture (frontend + backend)</li>
+            <li>Integrated third-party AI APIs and managed secure role-based routing</li>
+            <li>Built chat interfaces, API routes, and profile/vitals parsing logic end-to-end</li>
+          </ul>
+
+          <p><strong>Tools & Technologies:</strong></p>
+          <ul>
+            <li>React, Flask, PostgreSQL, Tailwind, Python</li>
+            <li>LLM APIs (Perplexity), OAuth-ready backend, Render/Vercel for hosting</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>

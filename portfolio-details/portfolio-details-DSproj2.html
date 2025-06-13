@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - DSProj2</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="../assets/img/Favicon_Shivam.jpg" rel="icon">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+  <style>
+    .swiper-slide img {
+      height: 600px;
+      object-fit: contain;
+      width: auto;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+<main id="main">
+  <div id="portfolio-details" class="portfolio-details">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-8">
+          <h2 class="portfolio-title">Predicting Stroke Occurrence Using Machine Learning</h2>
+
+          <div class="portfolio-details-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/DS_Proj_2/1.png" alt="Slide 1">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/DS_Proj_2/2.png" alt="Slide 2">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/DS_Proj_2/3.png" alt="Slide 3">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/DS_Proj_2/4.png" alt="Slide 4">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="../assets/Projects/DS_Proj_2/5.png" alt="Slide 5">
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 portfolio-info">
+          <h3>Project Information</h3>
+          <ul>
+            <li><strong>Category</strong>: Predictive Modeling / ML</li>
+            <li><strong>GitHub URL</strong>: <a href="https://github.com/PatelShivam26684/DSProj2" target="_blank">github.com/PatelShivam26684/DSProj2</a></li>
+          </ul>
+
+          <p><strong>Project Overview:</strong></p>
+          <p>
+            This project built and evaluated machine learning models to predict stroke occurrence using a structured healthcare dataset. The primary goal was to compare model performance using R² and RMSE, and determine the most effective model type.
+          </p>
+
+          <p><strong>Data Wrangling & Cleaning:</strong></p>
+          <ul>
+            <li>Dropped null BMI values; converted bi-categorical variables to binary (0/1)</li>
+            <li>Applied winsorization to cap outliers in glucose and BMI variables</li>
+            <li>Normalized inputs for KNN model</li>
+          </ul>
+
+          <p><strong>Models Tested:</strong></p>
+          <ul>
+            <li><strong>Linear Regression</strong> — Best performing model (R² = 0.0702, RMSE = 0.1861)</li>
+            <li><strong>Classification Tree</strong> — Poor performance (R² = -0.0403 at best)</li>
+            <li><strong>K-Nearest Neighbors</strong> — R² = -0.0129, RMSE = 0.1942 (best at k = 9)</li>
+          </ul>
+
+          <p><strong>Key Findings:</strong></p>
+          <ul>
+            <li>No model outperformed baseline values (R² = 0.0872, RMSE = 0.2060)</li>
+            <li>Linear regression consistently outperformed tree and KNN models</li>
+            <li>Most predictive features: Age, Hypertension, Heart Disease, Glucose Level</li>
+          </ul>
+
+          <p><strong>Tools & Libraries:</strong></p>
+          <ul>
+            <li>Python, Jupyter Notebooks</li>
+            <li>Pandas, Sklearn, Matplotlib</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>
